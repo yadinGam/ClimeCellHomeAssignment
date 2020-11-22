@@ -3,29 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373DCCC972CF5788ED9D1334 /* Pods_ClimeCellHomeAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDC0A184736267731FF6861 /* Pods_ClimeCellHomeAssignment.framework */; };
 		CCB7793C25683E2D00303818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7793B25683E2D00303818 /* AppDelegate.swift */; };
 		CCB7793E25683E2D00303818 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7793D25683E2D00303818 /* SceneDelegate.swift */; };
-		CCB7794025683E2D00303818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7793F25683E2D00303818 /* ViewController.swift */; };
+		CCB7794025683E2D00303818 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7793F25683E2D00303818 /* MainViewController.swift */; };
 		CCB7794325683E2D00303818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB7794125683E2D00303818 /* Main.storyboard */; };
 		CCB7794625683E2E00303818 /* ClimeCellHomeAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCB7794425683E2D00303818 /* ClimeCellHomeAssignment.xcdatamodeld */; };
 		CCB7794825683E3100303818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB7794725683E3100303818 /* Assets.xcassets */; };
 		CCB7794B25683E3100303818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB7794925683E3100303818 /* LaunchScreen.storyboard */; };
+		CCB77957256849F700303818 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB77955256849F700303818 /* CountryTableViewCell.swift */; };
+		CCB77958256849F700303818 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB77956256849F700303818 /* CountryTableViewCell.xib */; };
+		CCB7795B25685F1E00303818 /* CapitalCityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7795A25685F1E00303818 /* CapitalCityDetailsViewController.swift */; };
+		CCB779602569773400303818 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7795F2569773400303818 /* MapViewController.swift */; };
+		CCB77964256978ED00303818 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB77963256978ED00303818 /* Country.swift */; };
+		CCB779682569795600303818 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB779672569795600303818 /* CountryViewModel.swift */; };
+		CCB7796D2569799500303818 /* CountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7796C2569799500303818 /* CountriesService.swift */; };
+		CCB7797925699CBF00303818 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7797825699CBF00303818 /* Extensions.swift */; };
+		CCB77994256AC1D900303818 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB77993256AC1D900303818 /* Weather.swift */; };
+		CCB77997256AC21B00303818 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB77996256AC21B00303818 /* City.swift */; };
+		CCB7799A256AC2A000303818 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB77999256AC2A000303818 /* CountriesViewModel.swift */; };
+		CCB7799D256AC2C000303818 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7799C256AC2C000303818 /* CityViewModel.swift */; };
+		CCB779A0256AC2E800303818 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7799F256AC2E800303818 /* WeatherViewModel.swift */; };
+		CCB779A3256AC31700303818 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB779A2256AC31700303818 /* WeatherService.swift */; };
+		CCB779B0256AE4AB00303818 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB779AE256AE4AB00303818 /* DailyWeatherTableViewCell.swift */; };
+		CCB779B1256AE4AB00303818 /* DailyWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB779AF256AE4AB00303818 /* DailyWeatherTableViewCell.xib */; };
+		CCB779B8256B21C600303818 /* DailyWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB779B7256B21C600303818 /* DailyWeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BDC0A184736267731FF6861 /* Pods_ClimeCellHomeAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimeCellHomeAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA897B689CC2843AE0A74273 /* Pods-ClimeCellHomeAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimeCellHomeAssignment.release.xcconfig"; path = "Target Support Files/Pods-ClimeCellHomeAssignment/Pods-ClimeCellHomeAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		CCB7793825683E2D00303818 /* ClimeCellHomeAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimeCellHomeAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB7793B25683E2D00303818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB7793D25683E2D00303818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCB7793F25683E2D00303818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB7793F25683E2D00303818 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CCB7794225683E2D00303818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB7794525683E2E00303818 /* ClimeCellHomeAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimeCellHomeAssignment.xcdatamodel; sourceTree = "<group>"; };
 		CCB7794725683E3100303818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB7794A25683E3100303818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB7794C25683E3100303818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB77955256849F700303818 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		CCB77956256849F700303818 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		CCB7795A25685F1E00303818 /* CapitalCityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCityDetailsViewController.swift; sourceTree = "<group>"; };
+		CCB7795F2569773400303818 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CCB77963256978ED00303818 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		CCB779672569795600303818 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		CCB7796C2569799500303818 /* CountriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesService.swift; sourceTree = "<group>"; };
+		CCB7797825699CBF00303818 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CCB77993256AC1D900303818 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CCB77996256AC21B00303818 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CCB77999256AC2A000303818 /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		CCB7799C256AC2C000303818 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		CCB7799F256AC2E800303818 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		CCB779A2256AC31700303818 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		CCB779AE256AE4AB00303818 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		CCB779AF256AE4AB00303818 /* DailyWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		CCB779B7256B21C600303818 /* DailyWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherViewModel.swift; sourceTree = "<group>"; };
+		E3A3F63F3149F65BD691B499 /* Pods-ClimeCellHomeAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimeCellHomeAssignment.debug.xcconfig"; path = "Target Support Files/Pods-ClimeCellHomeAssignment/Pods-ClimeCellHomeAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +71,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373DCCC972CF5788ED9D1334 /* Pods_ClimeCellHomeAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		158E96089217D88ABC28D8A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A3F63F3149F65BD691B499 /* Pods-ClimeCellHomeAssignment.debug.xcconfig */,
+				BA897B689CC2843AE0A74273 /* Pods-ClimeCellHomeAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CCB7792F25683E2D00303818 = {
 			isa = PBXGroup;
 			children = (
 				CCB7793A25683E2D00303818 /* ClimeCellHomeAssignment */,
 				CCB7793925683E2D00303818 /* Products */,
+				158E96089217D88ABC28D8A5 /* Pods */,
+				F9C457CD42D7B5F47AC5C8A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +108,81 @@
 		CCB7793A25683E2D00303818 /* ClimeCellHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				CCB779BE256B24E800303818 /* ViewController */,
+				CCB779B4256AE7AF00303818 /* Utils */,
+				CCB7796B2569797F00303818 /* Service */,
+				CCB779662569793E00303818 /* ViewModel */,
+				CCB77962256978C300303818 /* Model */,
 				CCB7793B25683E2D00303818 /* AppDelegate.swift */,
 				CCB7793D25683E2D00303818 /* SceneDelegate.swift */,
-				CCB7793F25683E2D00303818 /* ViewController.swift */,
 				CCB7794125683E2D00303818 /* Main.storyboard */,
 				CCB7794725683E3100303818 /* Assets.xcassets */,
 				CCB7794925683E3100303818 /* LaunchScreen.storyboard */,
 				CCB7794C25683E3100303818 /* Info.plist */,
 				CCB7794425683E2D00303818 /* ClimeCellHomeAssignment.xcdatamodeld */,
+				CCB77955256849F700303818 /* CountryTableViewCell.swift */,
+				CCB77956256849F700303818 /* CountryTableViewCell.xib */,
+				CCB779AE256AE4AB00303818 /* DailyWeatherTableViewCell.swift */,
+				CCB779AF256AE4AB00303818 /* DailyWeatherTableViewCell.xib */,
 			);
 			path = ClimeCellHomeAssignment;
+			sourceTree = "<group>";
+		};
+		CCB77962256978C300303818 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCB77963256978ED00303818 /* Country.swift */,
+				CCB77993256AC1D900303818 /* Weather.swift */,
+				CCB77996256AC21B00303818 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCB779662569793E00303818 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCB779672569795600303818 /* CountryViewModel.swift */,
+				CCB77999256AC2A000303818 /* CountriesViewModel.swift */,
+				CCB7799C256AC2C000303818 /* CityViewModel.swift */,
+				CCB7799F256AC2E800303818 /* WeatherViewModel.swift */,
+				CCB779B7256B21C600303818 /* DailyWeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCB7796B2569797F00303818 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CCB7796C2569799500303818 /* CountriesService.swift */,
+				CCB779A2256AC31700303818 /* WeatherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CCB779B4256AE7AF00303818 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCB7797825699CBF00303818 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CCB779BE256B24E800303818 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCB7795A25685F1E00303818 /* CapitalCityDetailsViewController.swift */,
+				CCB7795F2569773400303818 /* MapViewController.swift */,
+				CCB7793F25683E2D00303818 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F9C457CD42D7B5F47AC5C8A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC0A184736267731FF6861 /* Pods_ClimeCellHomeAssignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB7794F25683E3100303818 /* Build configuration list for PBXNativeTarget "ClimeCellHomeAssignment" */;
 			buildPhases = (
+				EF5B6F5DF5A0FB8EEFA1A3D1 /* [CP] Check Pods Manifest.lock */,
 				CCB7793425683E2D00303818 /* Sources */,
 				CCB7793525683E2D00303818 /* Frameworks */,
 				CCB7793625683E2D00303818 /* Resources */,
+				5FC56FF7080483B766D2F209 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB779B1256AE4AB00303818 /* DailyWeatherTableViewCell.xib in Resources */,
+				CCB77958256849F700303818 /* CountryTableViewCell.xib in Resources */,
 				CCB7794B25683E3100303818 /* LaunchScreen.storyboard in Resources */,
 				CCB7794825683E3100303818 /* Assets.xcassets in Resources */,
 				CCB7794325683E2D00303818 /* Main.storyboard in Resources */,
@@ -135,15 +254,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FC56FF7080483B766D2F209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimeCellHomeAssignment/Pods-ClimeCellHomeAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimeCellHomeAssignment/Pods-ClimeCellHomeAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimeCellHomeAssignment/Pods-ClimeCellHomeAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5B6F5DF5A0FB8EEFA1A3D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimeCellHomeAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCB7793425683E2D00303818 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CCB7794625683E2E00303818 /* ClimeCellHomeAssignment.xcdatamodeld in Sources */,
-				CCB7794025683E2D00303818 /* ViewController.swift in Sources */,
+				CCB779682569795600303818 /* CountryViewModel.swift in Sources */,
+				CCB7799D256AC2C000303818 /* CityViewModel.swift in Sources */,
+				CCB7799A256AC2A000303818 /* CountriesViewModel.swift in Sources */,
+				CCB7794025683E2D00303818 /* MainViewController.swift in Sources */,
+				CCB7795B25685F1E00303818 /* CapitalCityDetailsViewController.swift in Sources */,
+				CCB779B8256B21C600303818 /* DailyWeatherViewModel.swift in Sources */,
 				CCB7793C25683E2D00303818 /* AppDelegate.swift in Sources */,
+				CCB779B0256AE4AB00303818 /* DailyWeatherTableViewCell.swift in Sources */,
+				CCB77997256AC21B00303818 /* City.swift in Sources */,
+				CCB77964256978ED00303818 /* Country.swift in Sources */,
+				CCB779A3256AC31700303818 /* WeatherService.swift in Sources */,
 				CCB7793E25683E2D00303818 /* SceneDelegate.swift in Sources */,
+				CCB779A0256AC2E800303818 /* WeatherViewModel.swift in Sources */,
+				CCB77994256AC1D900303818 /* Weather.swift in Sources */,
+				CCB77957256849F700303818 /* CountryTableViewCell.swift in Sources */,
+				CCB7796D2569799500303818 /* CountriesService.swift in Sources */,
+				CCB7797925699CBF00303818 /* Extensions.swift in Sources */,
+				CCB779602569773400303818 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +463,7 @@
 		};
 		CCB7795025683E3100303818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A3F63F3149F65BD691B499 /* Pods-ClimeCellHomeAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +483,7 @@
 		};
 		CCB7795125683E3100303818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA897B689CC2843AE0A74273 /* Pods-ClimeCellHomeAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
