@@ -10,7 +10,7 @@ import Foundation
 typealias WeatherViewModelCompletion = (Result<WeatherViewModel,Error>) ->()
 
 class WeatherViewModel {
-    
+   
     private let service: WeatherService!
     private var weather: [DailyWeather]
     var isCelsius = true
@@ -31,7 +31,18 @@ class WeatherViewModel {
     }
     
     func getWeather(lat: Double, lng: Double, completion: @escaping WeatherViewModelCompletion) {
-        self.service.getDailyWeather(lat: lat , lng: lng) { response in
+        let today = Date()
+        let numberOfDaysForToPresent: Int = 5
+        
+        //format the endDate
+        //2020-11-27T15:30:50Z
+        
+        
+        guard let endDate = Calendar.current.date(byAdding: .day, value: numberOfDaysForToPresent, to: today) else {
+            return
+        }
+        
+        self.service.getDailyWeather(lat: lat , lng: lng,endDate: endDate) { response in
             switch response {
             case .success(let weather):
                 self.weather = weather

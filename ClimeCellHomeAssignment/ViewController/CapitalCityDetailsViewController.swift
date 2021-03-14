@@ -13,12 +13,6 @@ class CapitalCityDetailsViewController: UIViewController, Alertable , MKMapViewD
     @IBOutlet weak var mapKitView: MKMapView!
     @IBOutlet weak var weekDaysWeatherTableView: UITableView!
     
-//    var showCelsius = true {
-//        didSet {
-//            self.weekDaysWeatherTableView.reloadData()
-//        }
-//    }
-    
     var cityViewModel: CityViewModel!
     
     private var weatherViewModel : WeatherViewModel = WeatherViewModel(service: WeatherService()) {
